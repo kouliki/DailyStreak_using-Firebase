@@ -19,6 +19,8 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
+  // controllers 
+
   bool Personal=true, College=false, Office=false;
   bool suggest=false;
   TextEditingController todocontroller =TextEditingController();
@@ -38,6 +40,7 @@ class _HomeState extends State<Home> {
     // _foundTodo = todosList;
     super.initState();
   }
+  // firestore connection
 
   Widget getWork(){
     return StreamBuilder(
@@ -80,7 +83,7 @@ class _HomeState extends State<Home> {
 
   // represent in screen
 
-
+// main body for the buttons,containner of the office , personal and college
   @override
   Widget build(BuildContext context) {
     return Scaffold(
