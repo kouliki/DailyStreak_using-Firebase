@@ -15,9 +15,8 @@ class NavBar extends StatelessWidget {
           DrawerHeader(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/nabvar.jpg'), // Replace with your image path
-                fit: BoxFit.cover, // Adjust the image to cover the header area
-              ),
+                image: AssetImage('assets/nabvar.jpg'), 
+                fit: BoxFit.cover, 
             ),
             child: Padding(
               padding: const EdgeInsets.only(left: 88.0),
