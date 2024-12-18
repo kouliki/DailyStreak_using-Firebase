@@ -8,11 +8,9 @@ This is a simple and user-friendly Todo List application built using Flutter. It
 
 - Add Tasks: Users can add new tasks to their list.
 
-- Update Tasks: Edit existing tasks to keep them up to date.
-
 - Delete Tasks: Remove completed or irrelevant tasks.
 
-- Persistent Storage: Tasks are saved locally to ensure they remain available even after restarting the app.
+- Persistent Storage: Tasks are saved locally to ensure they remain available after restarting the app.
 
 - Responsive UI: Works seamlessly across devices with different screen sizes.
 
